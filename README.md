@@ -13,6 +13,11 @@ yarn add @react-navigation/native react-native-reanimated react-native-gesture-h
 yarn add eslint-plugin-jest eslint-plugin-react eslint-plugin-react-hooks eslint-plugin-react-native @babel/eslint-parser -D
 ```
 
+###### Redux:
+```
+yarn add redux react-redux redux-logger redux-saga reselect
+```
+
 ###### Other:
 ```
 yarn add prop-types
