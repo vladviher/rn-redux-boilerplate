@@ -20,7 +20,7 @@ yarn add redux react-redux redux-logger redux-saga reselect
 
 ###### Other:
 ```
-yarn add prop-types
+yarn add prop-types axios apisauce
 ```
 
 ###### Linking:

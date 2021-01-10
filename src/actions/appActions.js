@@ -2,6 +2,7 @@ import {
   INIT_APP,
   SIGN_IN,
   SIGN_OUT,
+  GET_CAT_BY_ID,
 } from './../store/actionsTypes';
 
 export const initApp = () => ({
@@ -15,4 +16,9 @@ export const signIn = payload => ({
 
 export const signOut = () => ({
   type: SIGN_OUT,
+});
+
+export const getCatById = id => ({
+  type: GET_CAT_BY_ID,
+  url: `/images/${id}`,
 });
